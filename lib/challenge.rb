@@ -1,6 +1,49 @@
 cypher = { 'a' => 'n', 'b' => 'o', 'c' => 'p', 'd' => 'q', 'e' => 'r', 'f' => 's', 'g' => 't', 'h' => 'u', 'i' => 'v', 'j' => 'w', 'k' => 'x', 'l' => 'y', 'm' => 'z', 'n' => 'a', 'o' => 'b', 'p' => 'c', 'q' => 'd', 'r' => 'e', 's' => 'f', 't' => 'g', 'u' => 'h', 'v' => 'i', 'w' => 'j', 'x' => 'k', 'y' => 'l', 'z' => 'm'}
 
-def encode(string, cypher)
+#1 #encode
+# def encode(string, cypher)
+#   string.downcase!
+#   string = string.split('')
+#   newstring = []
+#   string.each do |letter|
+  	
+# 	newstring.push(cypher[letter])
+	
+#   end
+#   puts newstring.join
+# end
+# encode('Hello', cypher)
+
+#1 #encode
+# def encode(string, cypher)
+#   string.downcase!
+#   string = string.split('')
+#   newstring = []
+#   string.each do |letter|
+  	
+# 	newstring.push(cypher[letter])
+	
+#   end
+#   puts newstring.join
+# end
+# encode('World', cypher)
+
+#2 #decode
+# def decode(string, cypher)
+#   string.downcase!
+#   string = string.split('')
+#   newstring = []
+#   string.each do |letter|
+  	
+# 	newstring.push(cypher[letter])
+	
+#   end
+#   puts newstring.join
+# end
+# decode('uryyb', cypher)
+
+#2 #decode
+def decode(string, cypher)
   string.downcase!
   string = string.split('')
   newstring = []
@@ -11,7 +54,9 @@ def encode(string, cypher)
   end
   puts newstring.join
 end
-encode('Hello', cypher)
+decode('jbeyq', cypher)
+
+
 
 
 
